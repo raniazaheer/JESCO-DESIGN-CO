@@ -86,9 +86,9 @@ CART_SESSION_ID = 'cart'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'WEBPROJ',
+        'NAME': 'your data base name',
         'USER': 'postgres',
-        'PASSWORD': 'likeunlike5',
+        'PASSWORD': 'your database password',
         'HOST': 'localhost'
     }
 }
@@ -150,7 +150,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 EMAIL_HOST = 'smtp.zoho.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'fa18-bcs-036@students.cuisahiwal.pk'
+EMAIL_HOST_USER = 'your email'
 EMAIL_HOST_PASSWORD = ''
 
 
